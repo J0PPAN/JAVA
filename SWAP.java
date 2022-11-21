@@ -16,7 +16,7 @@ public class SWAP
         a = sc.nextFloat();
         System.out.print("Enter the second number : ");
         b = sc.nextFloat();
-        swap(a,b);
+        swap(,b);
     }
 
 }
