@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class SWAP
 {
-    static void swap(int x , int y ) {
-        int temp;
+    static void swap(float x , float y ) {
+        float temp;
         temp = x;
         x = y;
         y = temp;
@@ -10,12 +10,12 @@ public class SWAP
     }
     
     public static void main(String[] args) {
-        int a , b , temp ;
+        float a , b , temp ;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first number : ");
-        a = sc.nextInt();
+        a = sc.nextFloat();
         System.out.print("Enter the second number : ");
-        b = sc.nextInt();
+        b = sc.nextFloat();
         swap(a,b);
     }
 
